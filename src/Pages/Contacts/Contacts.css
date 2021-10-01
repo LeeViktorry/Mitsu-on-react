@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background: url('https://images.drive.ru/i/0/5fd1bd3bec05c4367c00000e.jpg') center / cover;
+    width: 100%;
+    height: 150vh;
+}
+
+.title{
+    width: 85%;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+}
+.title h1{
+    font-size: 50px;
+    color: white;
+}
+.title p{
+    color: white;
+    width: 600px;
+    font-size: 20px;
+}
+
+.links{
+    margin-top: 50px;
+}
+.links a{
+    color: black;
+    background: white;
+    padding: 15px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+@media (max-width:650px){
+    .title{
+        width: 70%;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+    .title p{
+        font-size: 17px;
+        width: 100%;
+    }
+}
+
+
+
+.active{
+    color: black !important; 
+    background: rgb(171, 177, 147);
+    padding: 29px;
+}
